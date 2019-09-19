@@ -11,8 +11,9 @@ body {
 }
 
 img{
-  height: 100px;
+  height: 80px;
   width: 520px;
+  align-content: center;
 }
 
 a {
@@ -37,7 +38,7 @@ a:hover {
 }
 
 .form:hover {
-	box-shadow: 0px 0px 40px 16px rgba(18,18,18,1.00);
+	box-shadow: 0px 0px 20px 10px rgba(18,18,18,1.00);
 	}
 
 .tab-group {
