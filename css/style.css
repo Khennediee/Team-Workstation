@@ -12,7 +12,8 @@ body {
 
 img{
   height: 80px;
-  width: 520px;
+  /* width: 520px; */
+  margin-left: 30%;
   align-content: center;
 }
 
