@@ -75,7 +75,7 @@ a:hover {
 }
 
 .tab-content > div:last-child {
-  display: none;
+  /* display: none; */
 }
 
 h1 {

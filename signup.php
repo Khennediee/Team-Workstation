@@ -14,12 +14,12 @@
   <div class="form">
     <img src="./img/Kennedy.jpg" alt="Workstation Inc.">
       <ul class="tab-group">
-        <li class="tab"><a href="signup.php">Sign Up</a></li>
-        <li class="tab active"><a href="index.php">Log In</a></li>
+        <li class="tab active"><a href="signup.php">Sign Up</a></li>
+        <li class="tab"><a href="index.php">Log In</a></li>
       </ul>
       
       <div class="tab-content">
-        <!-- <div id="signup">   
+        <div id="signup">   
           <h1>SIGN UP</h1>
           
           <form method="post">
@@ -43,15 +43,15 @@
                         </div>";
                     }
                 }
-                if(isset($login)){
-                    if(count($login['errors']) > 0){
-                        foreach($login['errors'] as $error) 
-                        echo "
-                          <div class='top-row'>
-                            <p class='error' style='text-align: center; color: red !important;'> {$error}</p>
-                          </div>";
-                    }
-                }
+                // if(isset($login)){
+                //     if(count($login['errors']) > 0){
+                //         foreach($login['errors'] as $error) 
+                //         echo "
+                //           <div class='top-row'>
+                //             <p class='error' style='text-align: center; color: red !important;'> {$error}</p>
+                //           </div>";
+                //     }
+                // }
             ?>
           <div class="top-row">
           
@@ -111,9 +111,9 @@
           
           </form>
 
-        </div> -->
+        </div>
         
-        <div id="login">   
+        <!-- <div id="login">   
           <h1>Welcome Back!</h1>
           
           <form method="post">
@@ -145,7 +145,7 @@
           
           </form>
 
-        </div>
+        </div> -->
         
       </div><!-- tab-content -->
       
